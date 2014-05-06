@@ -1,0 +1,28 @@
+@charset "utf-8";
+#contenedor{
+	margin:0 auto;
+	width:800px;	
+}
+#dial{
+	cursor:move;
+	width:300px;
+	height:300px;
+	background-image:url(../img/knob.png);
+	background-size:contain;
+}
+.error{
+	cursor:pointer;
+}
+#test{
+	margin-top:1px;
+	width:400px;
+	float:right;
+	color:#FFFFFF;
+	font-size:20px;
+	z-index:999;
+}
+#retro{
+	position:relative;
+    display:none;
+	left:100px;
+}
